@@ -5,7 +5,7 @@
 # 8/14/21 14:37
 #
 
-__author__ = "Benny <benny.think@gmail.com>"
+__author__ = "Benny <mirrorbot.cc@gmail.com>"
 
 import contextlib
 import json

@@ -5,7 +5,7 @@
 # 8/28/21 15:01
 #
 
-__author__ = "Benny <benny.think@gmail.com>"
+__author__ = "jaydev <mirrorleechbot.cc@gmail.com>"
 
 import os
 
@@ -14,9 +14,9 @@ from blinker import signal
 # general settings
 WORKERS: int = int(os.getenv("WORKERS", 10))
 PYRO_WORKERS: int = int(os.getenv("PYRO_WORKERS", 100))
-APP_ID: int = int(os.getenv("APP_ID", 198214))
-APP_HASH = os.getenv("APP_HASH", "1234b90")
-TOKEN = os.getenv("TOKEN", "1234")
+APP_ID: int = int(os.getenv("APP_ID", 24808705))
+APP_HASH = os.getenv("APP_HASH", "adf3a113ab32bb2792338477f156dc86")
+TOKEN = os.getenv("TOKEN", "8057013830:AAFKOwNRgIHjvQOqjYoLa18HQkGMSspMh54")
 
 REDIS = os.getenv("REDIS", "redis")
 
@@ -24,7 +24,7 @@ ENABLE_VIP = os.getenv("VIP", False)
 OWNER = os.getenv("OWNER", "BennyThink")
 
 # limitation settings
-AUTHORIZED_USER: str = os.getenv("AUTHORIZED_USER", "")
+AUTHORIZED_USER: str = os.getenv("AUTHORIZED_USER", "7029363479")
 # membership requires: the format could be username(without @ sign)/chat_id of channel or group.
 # You need to add the bot to this group/channel as admin
 REQUIRED_MEMBERSHIP: str = os.getenv("REQUIRED_MEMBERSHIP", "")
